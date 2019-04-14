@@ -1,0 +1,8 @@
+Enter a number and press enter, enter is still in buffer
+getline function terminates on enter,it will not work if it encounters an enter 
+So just after inputting any enter, use cin.ignore() to use getline()
+
+
+
+
+Conclusion: After every enter(not after getline because it is terminating for it) use cin.ignore() for using cin.getline() again
