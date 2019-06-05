@@ -1,2 +1,2 @@
-StringStream does not handle negative numbers
-it can not convert "-11" to -11;
+StringStream  handles negative numbers too;
+it can convert "-11" to -11;
