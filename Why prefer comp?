@@ -1,0 +1,2 @@
+Its risky to use sort without comp, since it is gonna make the array sort in its own way if a.first==b.first and all;
+Try to use comp blindly in all such scnerios;
